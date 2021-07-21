@@ -58,8 +58,8 @@ const questionsManager = () => {
     ])
     .then(answers => {
         // Storing manager's information
-        const {managerName, managerId, managerEmail, officeNumber} = answers;
-        const manager = new Manager (managerName, managerId, managerEmail, officeNumber);
+        const {managerName, managerId, managerEmail, managerOffice} = answers;
+        const manager = new Manager (managerName, managerId, managerEmail, managerOffice);
         employeeArr.push(manager);
     })
 } 
@@ -164,7 +164,7 @@ const questionsIntern = () => {
         {
             type: "input",
             message: "What is your intern's email?",
-            name: "engineerEmail",
+            name: "internEmail",
             validate: function (input) {
                 if(!input.includes('@')) {
                     return "Please enter a valid email";
