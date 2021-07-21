@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(61, 80, 66);
+    
+}
+
+.team-heading {
+    background-color: rgb(23, 59, 35);
+    color: white;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 3px rgb(78, 25, 121);
+}
+
+.card-header {
+    background-color: rgb(47, 47, 126);
+    color: white;
+}
