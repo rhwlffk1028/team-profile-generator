@@ -20,8 +20,9 @@
   Once you completed the installation process, now it's time for you to generate your team profile and display in HTML. Once you try to run node index.js, it will probably give you an error BECAUSE the required dependencies are not installed yet into the root directory. Run npm install to install required dependancies. Then, you should be able to run node index.js. You will be prompted with questions and provide employees information. Feel free to add as many as you want or stop adding when you are done. Screenshot of prompt is shown below:
 
   ![screenshot of terminal](./assets/team-profile-generator-screenshot.png)
+  ![screenshot of demo](./assets/demo-website.png)
 
-  [Demonstration Video Link]()
+  [Demonstration Video Link](https://www.youtube.com/watch?v=6qvDDyxIYbw&ab_channel=KevinChoi)
   
   ## License
   This project is covered under MIT License.
